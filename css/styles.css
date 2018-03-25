@@ -1,0 +1,45 @@
+/* FONTS */
+
+/* NAVBAR STYLES */
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #959A9C;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #F8C74A;
+  background-color: rgba(0, 0, 0, .6);
+  text-shadow: 1px 1px 1px #000;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #F8C74A;
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* JUMBOTRON STYLES START */
+.jumbotron {
+  background-image: url('../img/lemon-splash.jpg');
+  height: 475px;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron>p {
+  color: #fff;
+  font-size: 2em;
+  margin-top: 36px;
+}
+
+/* FOOTER STYLES START */
+footer {
+  background-color: #F8C74A;
+  color: #edf1f4;
+  padding: 3%;
+  height: 20px;
+}

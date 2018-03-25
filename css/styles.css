@@ -36,6 +36,12 @@
   margin-top: 36px;
 }
 
+/* SKILLS STYLES START */
+.skills {
+  display: flex;
+  justify-content: center;
+}
+
 /* FOOTER STYLES START */
 footer {
   background-color: #F8C74A;

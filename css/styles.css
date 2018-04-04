@@ -1,5 +1,12 @@
 /* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Kalam|Special+Elite');
+/* font-family: 'Special Elite', cursive;
+font-family: 'Kalam', cursive; */
 
+/* UNIVERSAL STYLES */
+body {
+  font-family: 'Special Elite', cursive;
+}
 /* NAVBAR STYLES */
 .navbar-default {
   background-color: transparent;
@@ -25,16 +32,38 @@
 /* JUMBOTRON STYLES START */
 .jumbotron {
   background-image: url('../img/lemon-splash.jpg');
-  height: 475px;
+  height: 650px;
+  margin-top: 50px;
+  padding-top: 100px;
   background-position: center;
   background-size: cover;
-}
-
-.jumbotron>p {
   color: #fff;
   font-size: 2em;
-  margin-top: 36px;
 }
+
+
+
+/* WORK STYLES START */
+#work {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work-btn {
+  background: linear-gradient(#959A9C, #F8C74A);
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  height: 250px;
+}
+
 
 /* FOOTER STYLES START */
 footer {

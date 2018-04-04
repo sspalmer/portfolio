@@ -67,6 +67,25 @@ body {
 /* MY STORY STYLES */
 #my-story {
   height: 500px;
+  text-align: center;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #fff;
+  background-color: #F8C74A;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
 }
 
 .carousel-inner .item img {

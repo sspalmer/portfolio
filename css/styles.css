@@ -64,6 +64,24 @@ body {
   height: 250px;
 }
 
+/* MY STORY STYLES */
+#my-story {
+  height: 500px;
+}
+
+.carousel-inner .item img {
+margin: auto;
+}
+
+.carousel-control.left {
+  color: #959A9C;
+  background-image: none;
+}
+
+.carousel-control.right {
+  color: #959A9C;
+  background-image: none;
+}
 
 /* FOOTER STYLES START */
 footer {

@@ -120,3 +120,17 @@ form label::after {
   content: "*";
   color: red;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  .jumbotron {
+  }
+  #work {
+    padding: 15px 0;
+    height: auto;
+  }
+  #my-story {
+    height: auto;
+    padding: 15px 0;
+  }
+}
